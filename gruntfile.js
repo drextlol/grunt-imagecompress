@@ -9,7 +9,7 @@ module.exports = function( grunt ) {
 			  src: ['img-original/*.jpg'],
 			  dest: 'img-compress'
 			}
-		}
+		},
 
 		tinypng: {
 		    options: {
@@ -23,7 +23,7 @@ module.exports = function( grunt ) {
 		    compress: {
 		        expand: true, 
 		        src: 'img-original/*.png', 
-		        dest: 'img-compress/'
+		        dest: 'img-compress'
 		        //ext: '.min.png'
 		    }
 		}
